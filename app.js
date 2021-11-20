@@ -15,10 +15,6 @@ function calculateTip() {
      alert("Please enter valid values");
      return;
  }
-
- if (persons === '1')
-     document.querySelector('#each').style.display = 'none';
- else
      document.querySelector('#each').style.display = 'block';
 
  let total = (amount * service) / persons;
