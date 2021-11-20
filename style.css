@@ -1,0 +1,58 @@
+.head{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    background-color:#1F030C;
+    border-radius: 10px 10px 0px 0;
+    color: white;
+}
+.container{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 30px;
+    /* background-color: #F7F7F7; */
+}
+*{
+    padding: 0%;
+    margin: 0;
+    background-color: #731408;
+}
+.flex{
+   
+    justify-content: center;
+    height: 400px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 12px 12px 10px 10px;
+    background-color: #F7F7F7;
+    /* padding: 20px; */
+    /* margin-left: 50%; */
+     
+
+}
+.share input{
+    text-align: center;
+    background-color: #F7F7F7;
+}
+.bill,.service{
+    text-align: center;
+    padding: 10px;
+    background-color: #F7F7F7;
+}
+.num{
+    text-align: center;
+    background-color: #F7F7F7;
+}
+#services{
+    text-align: center;
+    background-color: #F7F7F7;
+}
+#total,#each{
+    background-color: #F7F7F7;
+
+}
+.share,button,.last{
+    background-color: #F7F7F7;
+}
